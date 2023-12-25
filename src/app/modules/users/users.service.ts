@@ -9,7 +9,7 @@ const getAllUsersIntoDB = async () => {
   const result = await usersModel.find()
   return result
 }
-export const studentServices = {
+export const usersServices = {
   createUsersIntoDb,
   getAllUsersIntoDB,
 }
